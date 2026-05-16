@@ -1,0 +1,74 @@
+[
+  {
+    "id": "operations-consulting",
+    "title": "Operations Consulting",
+    "subtitle": "Streamline & Optimize",
+    "description": "We analyze and restructure your business operations to eliminate inefficiencies, reduce costs, and create scalable systems that grow with your enterprise.",
+    "icon": "mdi:cog-outline",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=400&fit=crop&q=80",
+    "features": ["Process Mapping", "Cost Reduction", "Efficiency Audits", "SOP Development"]
+  },
+  {
+    "id": "workflow-automation",
+    "title": "Workflow Automation",
+    "subtitle": "Automate & Accelerate",
+    "description": "Transform manual, repetitive processes into automated workflows that save time, reduce errors, and free your team to focus on high-value strategic work.",
+    "icon": "mdi:robot-outline",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop&q=80",
+    "features": ["Process Automation", "Tool Integration", "Custom Workflows", "Reporting Dashboards"]
+  },
+  {
+    "id": "ai-integration",
+    "title": "AI Integration",
+    "subtitle": "Innovate & Lead",
+    "description": "Harness the power of artificial intelligence to gain predictive insights, automate decision-making, and position your business at the forefront of innovation.",
+    "icon": "mdi:brain",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop&q=80",
+    "features": ["AI Strategy", "Machine Learning", "Predictive Analytics", "Intelligent Automation"]
+  },
+  {
+    "id": "crm-setup",
+    "title": "CRM Setup & Optimization",
+    "subtitle": "Connect & Convert",
+    "description": "Design, implement, and optimize CRM systems that centralize your customer data, streamline sales pipelines, and maximize client lifetime value.",
+    "icon": "mdi:account-group-outline",
+    "image": "https://images.unsplash.com/photo-1560472355-536de3962603?w=600&h=400&fit=crop&q=80",
+    "features": ["CRM Implementation", "Pipeline Design", "Data Migration", "Team Training"]
+  },
+  {
+    "id": "digital-transformation",
+    "title": "Digital Transformation",
+    "subtitle": "Transform & Evolve",
+    "description": "Guide your organization through comprehensive digital transformation that modernizes infrastructure and builds future-ready capabilities.",
+    "icon": "mdi:swap-horizontal-bold",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&fit=crop&q=80",
+    "features": ["Digital Strategy", "Cloud Migration", "Tech Stack Modernization", "Change Management"]
+  },
+  {
+    "id": "team-systems",
+    "title": "Team Systems & Enablement",
+    "subtitle": "Empower & Scale",
+    "description": "Build high-performance team systems with clear accountability structures, communication frameworks, and tools that enable exceptional results.",
+    "icon": "mdi:account-cog-outline",
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop&q=80",
+    "features": ["Team Structuring", "KPI Frameworks", "Communication Systems", "Performance Tools"]
+  },
+  {
+    "id": "business-optimization",
+    "title": "Business Optimization",
+    "subtitle": "Refine & Maximize",
+    "description": "Conduct deep-dive analysis of your business model, identify growth levers, and implement data-driven optimization strategies across every department.",
+    "icon": "mdi:chart-line",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop&q=80",
+    "features": ["Business Analysis", "Revenue Optimization", "Market Strategy", "Growth Planning"]
+  },
+  {
+    "id": "strategic-scaling",
+    "title": "Strategic Scaling",
+    "subtitle": "Grow & Dominate",
+    "description": "Develop and execute proven scaling strategies that prepare your infrastructure, processes, and teams for exponential growth.",
+    "icon": "mdi:rocket-launch-outline",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop&q=80",
+    "features": ["Scaling Strategy", "Infrastructure Planning", "Market Expansion", "Operational Readiness"]
+  }
+]

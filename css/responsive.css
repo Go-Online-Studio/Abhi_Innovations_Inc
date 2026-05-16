@@ -1,0 +1,74 @@
+/* ===== RESPONSIVE STYLES ===== */
+@media(max-width:991px){
+  .hero-metrics{gap:16px}
+  .hero-metric .metric-value{font-size:1.3rem}
+  .metric-grid{grid-template-columns:1fr 1fr}
+  .process-steps::before{display:none}
+  .about-glass-card{position:relative;bottom:auto;right:auto;margin-top:-30px;margin-left:20px;display:inline-block}
+  .map-container iframe{height:350px}
+  .contact-form-wrap{margin-top:-40px}
+  .cta-section{padding:80px 0}
+  .featured-post .fp-img{height:260px}
+  .filter-tabs{gap:6px}
+  .navbar .nav-link.active::after {
+    left: 0px;
+    right: unset;
+    width: 40px;
+    height: 2px;
+  }
+}
+@media(max-width:767px){
+  :root{--section-py:clamp(40px,6vw,80px)}
+  .hero-buttons{flex-direction:column;gap:12px}
+  .hero-buttons .btn-primary-glow,.hero-buttons .btn-outline-gold{width:100%;justify-content:center}
+  .hero-metrics{gap:12px}
+  .hero-metric .metric-value{font-size:1.2rem}
+  .about-section .row{flex-direction:column-reverse}
+  .about-img-wrap{margin-bottom:30px}
+  .dotted-square{display:none}
+  .process-step{padding:20px 0}
+  .process-num{font-size:4rem}
+  .testimonial-card{padding:24px}
+  .page-hero{padding:100px 0 50px}
+  .contact-form-wrap{padding:24px;margin-top:-30px}
+  .footer-col{margin-bottom:30px; text-align: center;}
+  .footer-brand{display: flex; justify-content: center; margin-bottom: 20px;}
+  .footer-brand img{margin: 0 auto;}
+  .footer-desc{margin: 0 auto 20px; max-width: 100%;}
+  .footer-social{justify-content: center;}
+  .footer-contact, .footer-links{padding: 0; margin: 0; list-style: none;}
+  .footer-contact li{justify-content: center; text-align: center; align-items: center;}
+  .footer-contact li span:last-child{text-align: center;}
+  .metric-box .m-val{font-size:1.6rem}
+  .industry-card{padding:12px 10px;height:80px}
+  .team-card{margin-bottom:16px}
+  .value-card{margin-bottom:16px}
+  .map-container iframe{height:280px}
+  .faq-accordion .accordion-button{padding:16px 18px;font-size:.88rem}
+  .svc-card{padding:20px}
+  .featured-post .fp-img{height:200px}
+  .filter-tabs{gap:4px}
+  .filter-tab{padding:6px 14px;font-size:.75rem}
+}
+@media(max-width:575px){
+  h1{font-size:clamp(2rem,7vw,2.6rem)}
+  h2{font-size:clamp(1.5rem,5vw,1.9rem)}
+  .hero-chip{font-size:.65rem;padding:6px 14px}
+  .hero-desc{font-size:.9rem}
+  .btn-primary-glow,.btn-outline-gold{padding:11px 22px;font-size:.82rem}
+  .section-label{font-size:.65rem;letter-spacing:2px}
+  .navbar .nav-cta{padding:8px 16px;font-size:.75rem}
+  .hero-metrics{flex-direction:column;gap:10px; text-align: center;}
+  .metric-grid{grid-template-columns:1fr 1fr;gap:10px}
+  .metric-box .m-val{font-size:1.4rem}
+  .metric-box{padding:16px}
+  .testimonial-card p{font-size:.88rem}
+  .contact-form-wrap{padding:20px;border-radius:12px}
+  .fab-container{bottom:16px;right:16px}
+  .fab-btn{width:46px;height:46px;font-size:1.2rem}
+  .site-footer{padding:40px 0 0}
+  .footer-bottom{font-size:.75rem}
+  .cta-section{padding:60px 0}
+  .industry-item span{font-size:.68rem}
+  .blog-card .blog-image{height:160px}
+}

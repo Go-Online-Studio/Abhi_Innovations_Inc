@@ -1,0 +1,1524 @@
+Create a complete premium responsive multi-page corporate consulting website for:
+
+BRAND NAME
+
+Abhi Innovations Inc.
+
+Business Details:
+
+Email: Info@abhi-innovations.com
+Phone: +1 587-834-3689
+Address: Unit 430, 700 8 Ave SW, Calgary, AB T2P 1H2
+
+The website should combine:
+
+The visual sophistication, overlapping layouts, elegant spacing, floating cards, geometric accents, dotted grid graphics, and luxury composition style from the “Justicia” reference website.
+The business consulting structure, services, process sections, and consulting-focused content direction from the Abhi Innovations reference website.
+A modern luxury dark navy + metallic copper/gold gradient identity.
+
+The final website must feel like a:
+
+Premium consulting firm
+Enterprise operational consulting agency
+High-end digital transformation partner
+Luxury corporate business brand
+
+NOT like a law firm website.
+
+The design quality should feel close to:
+
+Awwwards websites
+Premium Webflow templates
+Luxury enterprise consulting agencies
+Modern cinematic corporate brands
+IMPORTANT DESIGN DIRECTION
+
+The FIRST image reference (Justicia) is the MAIN UI inspiration.
+
+Pay attention to:
+
+overlapping section compositions
+asymmetrical layouts
+floating content cards
+elegant whitespace
+thin luxury dividers
+premium editorial typography
+layered sections
+dotted square decorative graphics
+premium spacing rhythm
+glassmorphism cards
+luxury dark theme aesthetics
+
+The OTHER reference images are for:
+
+content structure
+section order
+business services
+process flow
+page structure
+
+DO NOT replicate the law firm branding or styling literally.
+Transform the aesthetic into a consulting/business automation brand.
+
+COLOR SYSTEM
+:root{
+  --primary-color:#0a1128;
+  --secondary-color:#0f1b2d;
+  --body-text:#b5a792;
+  --card-bg:#0f1832;
+  --chips-bg:#c9a84c0d;
+  --glassmorphism-bg:#162240cc;
+
+  --primary-gradient:
+  linear-gradient(
+    135deg,
+    #B87333 0%,
+    #C9A84C 50%,
+    #D4B87A 100%
+  );
+
+  --glow-gold:
+  0 0 30px rgba(201,168,76,0.15),
+  0 0 60px rgba(201,168,76,0.05);
+
+  --border-gold:rgba(201,168,76,0.2);
+  --white:#ffffff;
+}
+GLOBAL DESIGN STYLE
+
+Use:
+
+cinematic dark navy backgrounds
+metallic copper-gold highlights
+subtle gradients
+glassmorphism
+luxury hover effects
+soft gold glows
+premium modern typography
+editorial layouts
+layered shadows
+premium transitions
+modern enterprise UI
+
+The website must feel:
+
+strategic
+intelligent
+premium
+trustworthy
+modern
+scalable
+enterprise-focused
+TYPOGRAPHY
+
+Use elegant typography combinations such as:
+
+Playfair Display + Manrope
+OR
+Cormorant Garamond + Plus Jakarta Sans
+
+Typography must:
+
+feel premium
+use large editorial headings
+use fluid clamp() responsive sizing
+maintain strong visual hierarchy
+
+Example:
+
+h1{
+font-size:clamp(2.8rem,5vw,6rem);
+}
+GLOBAL CSS & STYLING CONSTRAINTS
+
+MANDATORY:
+
+img{
+width:100%;
+height:auto;
+display:block;
+}
+
+a{
+text-decoration:none;
+}
+
+textarea{
+resize:none;
+}
+
+Use:
+
+CSS custom properties
+responsive spacing system
+section spacing variables
+responsive max-width breakpoints:
+991px
+767px
+575px
+
+Include:
+
+container widths
+responsive section paddings
+responsive absolute positioning fixes
+fluid typography
+scalable spacing rhythm
+
+Brand logo placeholder:
+
+https://placehold.co/200x80?text=Logo
+CORE LAYOUT STYLE
+
+The layout should heavily use:
+
+overlapping sections
+floating cards
+negative margins
+asymmetrical image compositions
+staggered grids
+dotted grid graphics
+luxury layered UI
+floating glass panels
+subtle radial gradients
+elegant depth
+
+Avoid:
+
+generic SaaS layouts
+boxed bootstrap appearance
+overly colorful UI
+flat corporate templates
+bright backgrounds
+cheap shadows
+symmetrical layouts everywhere
+WEBSITE STRUCTURE
+
+Create FULL MULTI-PAGE WEBSITE:
+
+Home
+About Us
+Services
+Contact
+Optional Case Studies
+
+All pages must maintain:
+
+same design language
+same spacing system
+same animation language
+same typography
+same theme system
+PAGE ARCHITECTURE — MANDATORY
+
+EVERY PAGE must use EXACT structure:
+
+<body>
+
+  <!-- Preloader injected by critical.js -->
+
+  <header id="mainNavbar"></header>
+
+  <main id="page-content">
+    <!-- Page Content -->
+  </main>
+
+  <footer id="footer"></footer>
+
+  <!-- Floating Action Buttons injected by script.js -->
+
+</body>
+HEADER / NAVIGATION
+
+Requirements:
+
+sticky navbar
+transparent initially
+solid background after scroll
+smooth transition
+premium glass effect on scroll
+
+Desktop:
+
+logo left
+nav center/right
+CTA button right
+
+Mobile:
+
+Bootstrap 5 Offcanvas menu
+animated hamburger
+
+Navbar CSS:
+
+--nav-height:max(65px, calc(var(--brand-height) + 16px));
+
+.navbar-brand{
+height:var(--brand-height);
+padding:0;
+}
+
+.navbar-brand img{
+height:100%;
+width:auto;
+}
+
+Active menu item should auto-detect based on pathname.
+
+HERO SECTION
+
+Create cinematic premium hero section inspired by Justicia.
+
+Requirements:
+
+full-screen style
+Swiper slider
+dark image/video overlay
+fade-up entrance animations
+layered composition
+floating gradient glow
+dotted decorative graphics
+overlapping next section transition
+
+Use:
+
+min-height:calc(100vh - var(--nav-height));
+height:auto;
+
+Hero content must NEVER shrink on mobile.
+
+Pagination:
+
+copper/gold dots
+active pill-shaped dot
+full opacity active state
+
+Example content direction:
+“Stop Wrestling With Your Operations. Start Scaling Them.”
+
+Include:
+
+CTA buttons
+trust indicators
+small premium label/chip
+floating stats card
+ABOUT / INTRO SECTION
+
+Luxury two-column overlapping layout.
+
+Left:
+
+heading
+strategic copy
+business pain points
+CTA
+
+Right:
+
+cinematic image
+floating glass card
+overlapping stat block
+
+Add:
+
+dotted grids
+glow effects
+layered shadows
+subtle parallax
+STATS SECTION
+
+Luxury metrics cards.
+
+Examples:
+
+120+ Businesses Scaled
+130+ Happy Clients
+15+ Industries
+8+ Years Experience
+
+Features:
+
+animated counters
+glow hover
+premium icons
+glass cards
+AWARDS / RECOGNITION
+
+Inspired by Justicia awards section.
+
+Use:
+
+elegant card grid
+thin borders
+floating effects
+year badges
+soft glow hover
+staggered layout
+SERVICES SECTION
+
+Content structure inspired by Abhi Innovations references.
+
+Services:
+
+Operations Consulting
+Workflow Automation
+AI Integration
+CRM Setup
+Digital Transformation
+Team Systems
+Business Optimization
+Strategic Scaling
+
+IMPORTANT:
+NOT generic icon cards.
+
+Use:
+
+image-based service cards
+layered compositions
+staggered layouts
+hover animations
+floating overlays
+glassmorphism badges
+
+Each card must include:
+
+“Quick Consultation”
+“Need Help?”
+
+Button functionality:
+Clicking opens WhatsApp with pre-filled message mentioning selected service.
+
+PROCESS SECTION
+
+Use oversized faded step numbers.
+
+Example:
+01 Discover
+02 Strategize
+03 Implement
+04 Scale
+
+Include:
+
+connecting lines
+elegant motion
+fade animations
+minimal GSAP scroll effects
+TESTIMONIALS
+
+Use:
+
+glassmorphism cards
+floating avatars
+subtle glow
+cinematic layout
+Swiper carousel
+FINAL CTA SECTION
+
+Large cinematic banner.
+
+Example:
+“We Help Businesses Operate Smarter.”
+
+Use:
+
+dark overlay image
+centered luxury content
+gradient CTA button
+layered overlapping edges
+FOOTER
+
+Luxury minimal footer.
+
+Include:
+
+logo
+nav links
+contact info
+social icons
+subtle dividers
+elegant spacing
+ABOUT PAGE
+
+Sections:
+
+Hero
+Company Story
+Vision / Mission / Values
+Why Choose Us
+Team
+Testimonials
+CTA Banner
+
+Use overlapping layouts and floating image compositions.
+
+SERVICES PAGE
+
+Sections:
+
+Hero
+Services Grid
+Detailed Service Blocks
+FAQ Accordion
+Process
+CTA Banner
+
+FAQ should use premium accordion styling.
+
+CONTACT PAGE
+
+Sections:
+
+Hero
+Large Embedded Map
+Contact Cards
+Luxury Glassmorphism Form
+Consultation CTA
+Footer
+
+Use overlapping contact form container.
+
+IMAGE STYLE
+
+Use:
+
+cinematic consulting office imagery
+enterprise business environments
+luxury professional atmosphere
+dark navy overlays
+warm highlights
+strategic corporate photography
+
+All images:
+
+.webp format only
+lazy-loaded below fold
+proper width/height defined
+descriptive alt text
+ACCESSIBILITY & PERFORMANCE
+
+MANDATORY:
+
+semantic HTML5 only
+no div soup
+WCAG 2.1 compliant
+aria-labels on all interactive elements
+keyboard navigation support
+contrast ratio minimum 4.5:1
+
+Performance:
+
+preload hero image
+preload fonts
+defer JS
+CLS prevention
+optimized animations
+target Lighthouse 90+
+SEO REQUIREMENTS
+
+Every page must include:
+
+title
+meta description
+canonical
+OpenGraph tags
+Twitter Card tags
+
+Add JSON-LD:
+
+LocalBusiness schema
+Contact schema
+Offer schema for services
+
+Business data:
+
+Name: Abhi Innovations Inc.
+Address: Unit 430, 700 8 Ave SW, Calgary, AB T2P 1H2
+Phone: +1 587-834-3689
+Email: Info@abhi-innovations.com
+TECH STACK — FIXED
+
+ONLY USE:
+
+HTML5
+CSS3
+Vanilla JavaScript ES6+
+Bootstrap 5
+Swiper.js
+GSAP
+Iconify
+Google Fonts
+
+NO React.
+NO jQuery.
+NO Tailwind.
+NO external frameworks.
+
+JAVASCRIPT ARCHITECTURE
+
+Use modular structure:
+
+critical.js
+
+Responsibilities:
+
+inject navbar
+inject footer
+preloader
+navbar scroll effect
+active nav detection
+script.js
+
+Responsibilities:
+
+Swiper init
+testimonial slider
+GSAP animations
+counters
+floating buttons
+back-to-top
+service rendering from JSON
+debounce resize logic
+whatsapp.js
+
+Responsibilities:
+
+all form handling
+WhatsApp integration
+smart device routing
+
+Mobile:
+
+https://api.whatsapp.com/send
+
+Desktop:
+
+https://web.whatsapp.com/send
+
+Detect using:
+
+/Mobi|Android/i.test(navigator.userAgent)
+
+After submit:
+
+clear form
+show success UI
+WHATSAPP FUNCTIONALITY
+
+Global number:
+
+15878343689
+
+Phone links:
+
+tel:+15878343689
+
+WhatsApp links:
+
+https://wa.me/15878343689
+
+Service cards and forms must generate dynamic pre-filled WhatsApp messages.
+
+ANIMATION STYLE
+
+Use:
+
+GSAP fade-up
+fade-left
+fade-right
+fade-zoom
+parallax
+smooth stagger animations
+floating hover motion
+
+Effects should be:
+
+cinematic
+subtle
+premium
+performance optimized
+
+Avoid:
+
+heavy animations
+blocking entrance effects
+over-animated UI
+RESPONSIVENESS
+
+Website must feel premium across:
+
+desktop
+tablet
+mobile
+
+Mobile design must preserve:
+
+overlapping aesthetic
+spacing rhythm
+luxury feel
+typography hierarchy
+
+No broken layouts.
+
+FINAL GOAL
+
+Create a modern luxury consulting website for Abhi Innovations Inc. that combines:
+
+the editorial elegance and overlapping UI sophistication of the Justicia reference,
+the operational consulting structure of the Abhi references,
+and a premium dark navy + copper-gold enterprise brand system.
+
+The final website should look like a high-budget Awwwards/Webflow corporate consulting experience.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Abhi Innovations Inc. Website — Content Rewrite + UI Fixes
+
+## CRITICAL INSTRUCTION
+You have an existing Abhi Innovations Inc. website with good UI structure, but:
+1. Content does not match the reference images
+2. Several UI elements need refinement
+3. Missing decorative graphics and parallax effects
+
+**DO NOT rebuild the website from scratch.**
+**DO NOT change the current modern layout structure.**
+**ONLY rewrite content and apply the specific UI fixes listed below.**
+
+---
+
+## 🎯 PRIMARY GOALS
+
+### Content goals
+- Rewrite ALL page content to match the reference screenshots exactly
+- Follow the section sequence visible in the references
+- Use the exact tone, messaging, and copy structure from the images
+
+### UI refinement goals
+- Reduce oversized text throughout
+- Convert square buttons to pill-shaped buttons
+- Fix navigation spacing issues
+- Synchronize statistics counter animations
+- Add dotted square decorative graphics
+- Implement parallax scroll effects
+- Remove duplicate service card buttons
+- Remove "FEATURED" tag from service cards
+
+---
+
+## 📐 GLOBAL UI FIXES (Apply Across All Pages)
+
+### Typography adjustments
+Current problem: Text is too large and dominates the layout.
+
+**Fix:**
+```css
+/* Hero headlines */
+h1 { font-size: clamp(2.4rem, 4.5vw, 4.8rem); }
+
+/* Section headings */
+h2 { font-size: clamp(1.8rem, 3.5vw, 3.2rem); }
+
+/* Subheadings */
+h3 { font-size: clamp(1.2rem, 2vw, 1.8rem); }
+
+/* Body text */
+p, li { font-size: clamp(0.95rem, 1.5vw, 1.05rem); }
+
+/* Small text / labels */
+.small-text, .label { font-size: clamp(0.8rem, 1.2vw, 0.9rem); }
+```
+
+### Button styling
+Current problem: Buttons are square-shaped.
+
+**Fix — Apply to ALL buttons:**
+```css
+.btn, button, .cta-button {
+  border-radius: 50px; /* Full pill shape */
+  padding: 12px 32px;
+  transition: all 0.3s ease;
+}
+
+/* Example */
+.btn-primary {
+  background: var(--primary-gradient);
+  border: none;
+  border-radius: 50px;
+  padding: 14px 36px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1.5px solid var(--border-gold);
+  border-radius: 50px;
+  padding: 12px 32px;
+  color: var(--gold);
+}
+```
+
+### Navigation spacing
+Current problem: Nav items don't have proper spacing.
+
+**Fix:**
+```css
+.navbar-nav .nav-link {
+  padding: 8px 20px; /* Horizontal spacing between items */
+  margin: 0 4px; /* Additional spacing */
+  font-size: 0.95rem;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--copper);
+}
+
+/* Active state */
+.navbar-nav .nav-link.active {
+  color: var(--gold);
+  position: relative;
+}
+
+.navbar-nav .nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: 4px;
+  left: 20px;
+  right: 20px;
+  height: 2px;
+  background: var(--primary-gradient);
+  border-radius: 2px;
+}
+```
+
+### Statistics counter synchronization
+Current problem: Counter animations finish at different times.
+
+**Fix in script.js:**
+```javascript
+// Synchronized counter animation
+function animateCounters() {
+  const counters = document.querySelectorAll('[data-count]');
+  const duration = 2000; // Fixed 2-second duration for ALL counters
+  
+  counters.forEach(counter => {
+    const target = parseInt(counter.getAttribute('data-count'));
+    const isPercentage = counter.textContent.includes('%');
+    const hasPlus = counter.textContent.includes('+');
+    
+    let current = 0;
+    const increment = target / (duration / 16); // 60fps
+    
+    const timer = setInterval(() => {
+      current += increment;
+      if (current >= target) {
+        current = target;
+        clearInterval(timer);
+      }
+      
+      let display = Math.floor(current);
+      if (isPercentage) display += '%';
+      if (hasPlus) display += '+';
+      
+      counter.textContent = display;
+    }, 16);
+  });
+}
+
+// Trigger on scroll (once)
+ScrollTrigger.create({
+  trigger: '.stats-section',
+  start: 'top 70%',
+  once: true,
+  onEnter: () => animateCounters()
+});
+```
+
+### Add dotted square decorative graphics
+Current problem: Missing throughout the site.
+
+**Add this CSS:**
+```css
+/* Dotted square graphic */
+.dotted-square {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-image: 
+    repeating-linear-gradient(
+      0deg,
+      var(--border-gold),
+      var(--border-gold) 1px,
+      transparent 1px,
+      transparent 8px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      var(--border-gold),
+      var(--border-gold) 1px,
+      transparent 1px,
+      transparent 8px
+    );
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Variations */
+.dotted-square.top-right {
+  top: -40px;
+  right: -40px;
+  transform: rotate(12deg);
+}
+
+.dotted-square.bottom-left {
+  bottom: -60px;
+  left: -60px;
+  transform: rotate(-8deg);
+}
+
+.dotted-square.large {
+  width: 180px;
+  height: 180px;
+}
+```
+
+**Add to key sections:**
+- Hero section (top-right corner)
+- About intro (bottom-left of image container)
+- Services section (floating between cards)
+- Process section (behind step numbers)
+- CTA section (top-left corner)
+
+### Add parallax effects
+Current problem: Static, no depth.
+
+**Add GSAP parallax to script.js:**
+```javascript
+// Parallax on scroll
+gsap.utils.toArray('.parallax-image').forEach(img => {
+  gsap.to(img, {
+    y: -80,
+    ease: 'none',
+    scrollTrigger: {
+      trigger: img,
+      start: 'top bottom',
+      end: 'bottom top',
+      scrub: 1
+    }
+  });
+});
+
+// Floating elements
+gsap.utils.toArray('.float-element').forEach(el => {
+  gsap.to(el, {
+    y: -30,
+    ease: 'none',
+    scrollTrigger: {
+      trigger: el,
+      start: 'top bottom',
+      end: 'bottom top',
+      scrub: 1.5
+    }
+  });
+});
+
+// Dotted squares subtle rotation
+gsap.utils.toArray('.dotted-square').forEach(square => {
+  gsap.to(square, {
+    rotation: '+=5',
+    ease: 'none',
+    scrollTrigger: {
+      trigger: square,
+      start: 'top bottom',
+      end: 'bottom top',
+      scrub: 2
+    }
+  });
+});
+```
+
+**HTML class usage:**
+- Add `.parallax-image` to hero images, about images, team images
+- Add `.float-element` to stats cards, service icons, floating panels
+
+---
+
+## 📄 PAGE-BY-PAGE CONTENT REWRITE
+
+---
+
+## 🏠 HOME PAGE (index.html)
+
+### Section 1: Hero
+**Current issue:** Generic content, doesn't match reference
+
+**Reference content structure (Image 1):**
+- Small label: "PROCESS EXCELLENCE PARTNERS"
+- Main headline: Three lines with gradient on middle line
+  - Line 1: "Optimize."
+  - Line 2: "Automate." ← Apply gradient
+  - Line 3: "Elevate."
+- Subheadline: "We transform how businesses operate — streamlining processes, implementing intelligent automation, and equipping your team with the tools to thrive."
+- Two buttons: "Book a Consultation" (primary gold) + "See Our Process" (outline)
+- Three metrics inline:
+  - "200+ Processes Optimized"
+  - "40% Avg Efficiency Gain"
+  - "98% Client Retention"
+
+**HTML structure to update:**
+```html
+<section class="hero-section">
+  <div class="dotted-square top-right large"></div>
+  
+  <div class="hero-content">
+    <span class="hero-label">PROCESS EXCELLENCE PARTNERS</span>
+    
+    <h1 class="hero-headline">
+      <span class="line-1">Optimize.</span>
+      <span class="line-2 gradient-text">Automate.</span>
+      <span class="line-3">Elevate.</span>
+    </h1>
+    
+    <p class="hero-subheadline">
+      We transform how businesses operate — streamlining processes, 
+      implementing intelligent automation, and equipping your team 
+      with the tools to thrive.
+    </p>
+    
+    <div class="hero-buttons">
+      <a href="#contact" class="btn btn-primary">Book a Consultation</a>
+      <a href="#process" class="btn btn-outline">See Our Process</a>
+    </div>
+    
+    <div class="hero-metrics">
+      <div class="metric">
+        <span class="metric-value" data-count="200">200+</span>
+        <span class="metric-label">Processes Optimized</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value" data-count="40">40%</span>
+        <span class="metric-label">Avg Efficiency Gain</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value" data-count="98">98%</span>
+        <span class="metric-label">Client Retention</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="hero-visual">
+    <div class="floating-card parallax-image">
+      <!-- 3D 'A' graphic or placeholder image -->
+    </div>
+  </div>
+</section>
+```
+
+---
+
+### Section 2: What We Do
+**Current issue:** Content doesn't match reference
+
+**Reference structure (Image 1):**
+- Small label: "WHAT WE DO"
+- Heading: "Consulting That" (white) + "Transforms Operations" (gradient)
+- Subheading: "From diagnosing inefficiencies to deploying cutting-edge tools, we provide end-to-end consulting that makes your business leaner, faster, and smarter."
+
+**6 service cards in 3x2 grid:**
+
+1. **Process Audit & Diagnosis**
+   - Icon: Checklist/magnifying glass
+   - Copy: "Deep dive analysis of your current workflows and physical processes to identify bottlenecks, waste, and optimization potential."
+   - Tag: "ANALYSIS"
+
+2. **Process Redesign & Optimization**
+   - Icon: Settings/gear
+   - Copy: "Reimagine workflows to eliminate inefficiencies — both digital business processes and physical operations."
+   - Tag: "OPTIMIZATION"
+
+3. **Automation Strategy**
+   - Icon: Robot/automation
+   - Copy: "Identify which processes to automate, select the right technologies, and build a phased roadmap that delivers ROI."
+   - Tag: "AUTOMATION"
+
+4. **Tool Implementation**
+   - Icon: Tools/wrench
+   - Copy: "End-to-end deployment of business and software solutions — from selection to integration with your tech stack."
+   - Tag: "IMPLEMENTATION"
+
+5. **Team Training & Enablement**
+   - Icon: People/users
+   - Copy: "Hands-on training that gets your team confidently operating new tools and processes."
+   - Tag: "TRAINING"
+
+6. **Ongoing Support & Scaling**
+   - Icon: Growth/chart
+   - Copy: "Continuous insights and strategic guidance as your business scales."
+   - Tag: "SUPPORT"
+
+**Service card structure:**
+```html
+<div class="service-card float-element">
+  <div class="service-icon">
+    <i class="iconify" data-icon="tabler:checkbox"></i>
+  </div>
+  <h3 class="service-title">Process Audit & Diagnosis</h3>
+  <p class="service-description">
+    Deep dive analysis of your current workflows and physical 
+    processes to identify bottlenecks, waste, and optimization potential.
+  </p>
+  <span class="service-tag">ANALYSIS</span>
+  
+  <!-- IMPORTANT: Only ONE button per card -->
+  <button class="btn-service-cta" onclick="openWhatsApp('Process Audit')">
+    Quick Consultation
+  </button>
+  <!-- DO NOT add "Need Help?" button — it's the same action -->
+</div>
+```
+
+**Critical fix:** Remove "FEATURED" badge. Remove duplicate buttons.
+
+---
+
+### Section 3: Process
+**Reference structure (Image 1):**
+- Small label: "HOW WE WORK"
+- Heading: "A Proven Path to" (white) + "Operational Excellence" (gradient)
+- Subheading: "Our four-phase methodology ensures every engagement delivers measurable, sustainable improvement."
+
+**4 process steps with large faded numbers:**
+
+1. **Discover**
+   - Number: 01 (large, faded, background)
+   - Icon: Compass
+   - Copy: "Immersive assessment of your current operations and processes, pain points, and strategic goals."
+
+2. **Design**
+   - Number: 02
+   - Icon: Pencil/design
+   - Copy: "Collaborative design and workflows and automation blueprints that solve bottle necks and unlock efficiency."
+
+3. **Deploy**
+   - Number: 03
+   - Icon: Rocket
+   - Copy: "Execute implementation plan, develop solutions — including tools and regarding processes."
+
+4. **Empower**
+   - Number: 04
+   - Icon: Users/team
+   - Copy: "Train your team, optimize post-launch, and continuously refine and advancement to optimize."
+
+**Add connecting line between steps (CSS):**
+```css
+.process-steps {
+  position: relative;
+}
+
+.process-steps::before {
+  content: '';
+  position: absolute;
+  top: 60px;
+  left: 10%;
+  right: 10%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--border-gold) 20%,
+    var(--border-gold) 80%,
+    transparent
+  );
+  opacity: 0.4;
+}
+```
+
+---
+
+### Section 4: Testimonials
+**Reference structure (Image 1):**
+- Small label: "PROVEN RESULTS"
+- Heading: "Numbers That" (white) + "Speak Volumes" (gradient)
+
+**Left side: Two testimonial cards**
+
+Testimonial 1:
+- Rating: 5 stars (gold)
+- Quote: "Abhi Innovations Inc. transformed our operational operations. What used to take 4 days, now takes 1 hour. The automation alone has paid for itself in under 3 months."
+- Author: John Patterson
+- Title: CEO, Mountain Logistics
+
+Testimonial 2:
+- Rating: 5 stars
+- Quote: "They didn't just hand us a report and leave — they stayed with us through the entire setup. Real change requires real partnership, and that's what we got."
+- Author: Sandra Patel
+- Title: COO, Summit Partners
+
+**Right side: Metrics grid (2x2)**
+- 40% avg improvement
+- 6mo avg payback period
+- 200+ processes optimized
+- 98% client retention rate
+
+---
+
+### Section 5: Industries We Serve
+**Reference structure (Image 1, footer area):**
+- Small label: "INDUSTRIES WE SERVE"
+- Icon row (6 icons with labels):
+  - Manufacturing
+  - Logistics
+  - E-commerce
+  - Healthcare
+  - Legal
+  - Construction
+
+**Add hover glow effect on icons**
+
+---
+
+### Section 6: Final CTA
+**Reference content (Image 1):**
+- Heading: "Ready to Transform" (white) + "Your Operations?" (gradient)
+- Subheadline: "Every organization's journey starts with a conversation. Let's discuss how we can make your business leaner, faster, and smarter."
+- Two buttons: "Book a Free Consultation" (primary) + "View FAQ" (outline)
+
+**Add dotted square top-left corner**
+
+---
+
+## 📘 ABOUT PAGE (about.html)
+
+### Section 1: Hero
+- Label: "ABOUT US"
+- Heading: "The People Behind" (white) + "Your Transformation" (gradient)
+- Subheadline: "We're a team of process engineers, automation specialists, and business strategists who believe operational excellence should be accessible, practical, and human-centered."
+
+---
+
+### Section 2: Our Story
+**Reference structure (Image 3, top section):**
+
+Left side:
+- Image: Modern corporate trophy/award (parallax)
+- Dotted square bottom-left
+
+Right side:
+- Small label: "OUR STORY"
+- Heading: "Built From Real-World" (white) + "Operational Frustration" (gradient)
+- Copy (3 paragraphs):
+
+"Abhi Innovations Inc. was born from a simple observation: too many businesses struggle with inefficient processes, legacy tools, and bottlenecks that slow them down and drain margins. We built this firm to change that.
+
+Our founder spent over a decade inside major enterprises — logistics hubs, mid-market manufacturers, fast-scaling e-commerce brands — operating inefficiencies everywhere. Not the kind that make it into consulting decks, but the kind that cost real time and real money.
+
+Today, we bring that pragmatism to every engagement. We don't talk theory — we build solutions. Because the challenge isn't knowing what's broken. It's having the expertise and follow-through to fix it."
+
+---
+
+### Section 3: Our Values
+**Reference structure (Image 3, "What Drives Every Decision"):**
+- Label: "OUR VALUES"
+- Heading: "What Drives" (white) + "Every Decision" (gradient)
+
+**6 value cards in 3x2 grid:**
+
+1. **Practicality Over Theory**
+   - Icon: Compass
+   - Copy: "Every recommendation needs actual results. Real value comes from doing the work, not just talking about it."
+
+2. **People Before Process**
+   - Icon: Users
+   - Copy: "The best process-design treating a plan never succeeds if your people don't buy in. We prioritize adoption and change."
+
+3. **Measured Accountability**
+   - Icon: Chart
+   - Copy: "We define success upfront and track it religiously. Vague wins don't count — data does."
+
+4. **End-to-End Ownership**
+   - Icon: Shield
+   - Copy: "We don't hand off half-finished work or expect you to figure it out. We stick around until it's working."
+
+5. **Continuous Curiosity**
+   - Icon: Lightbulb
+   - Copy: "The operational landscape evolves constantly — new tools, methods, frameworks. We stay ahead so you can too."
+
+6. **Partnership Mindset**
+   - Icon: Handshake
+   - Copy: "We succeed when our clients succeed. Every engagement is built on trust, transparency, and shared goals."
+
+---
+
+### Section 4: Team
+**Reference structure (Image 3, "Meet the Experts Behind the Results"):**
+- Label: "OUR TEAM"
+- Heading: "Meet the Experts" (white) + "Behind the Results" (gradient)
+- Subheadline: "A multidisciplinary team combining deep operational experience with cutting-edge technical expertise."
+
+**3 team member cards (use images from reference):**
+
+1. **Abhi [Founder]**
+   - Title: Founder & Managing Consultant
+   - Bio: "15+ years in operational management and process transformation. Expertise in automating complex workflows, scaling teams, and driving efficiency."
+
+2. **[Team Member Name]**
+   - Title: Senior Operations Specialist
+   - Bio: "Specialist in industrial automation, IoT integration, and manufacturing process optimization."
+
+3. **[Team Member Name]**
+   - Title: Strategy & Workflow Designer
+   - Bio: "Expert in change management, process redesign, and organizational scaling for high-growth teams."
+
+---
+
+### Section 5: Why Choose Us
+**Reference structure (Image 3, bottom section - "Competence You Trust"):**
+- Label: "WHY ABHI INNOVATIONS INC."
+- Heading: "Competence You Trust," (white) + "Warmth You Feel" (gradient)
+
+**4 reasons with icons:**
+
+1. **Precision-Driven Approach**
+   - Icon: Target
+   - Copy: "Data-first methodology built on experience and analytics. We prove every solution before we implement it."
+
+2. **People-First Philosophy**
+   - Icon: Heart
+   - Copy: "Empathy and listening come first. We partner every insight. We advise every business differently."
+
+3. **End-to-End Ownership**
+   - Icon: Shield
+   - Copy: "We don't vanish after delivery. Training, testing, and support — we own with you through every step."
+
+4. **We Stay After Launch**
+   - Icon: Refresh
+   - Copy: "Follow-up isn't optional after consultation, and revision. Stick with Abhi on your long-term."
+
+**Right side:** Image of a cheetah on a road (parallax effect, from reference)
+
+---
+
+### Section 6: Final CTA
+Same as homepage final CTA.
+
+---
+
+## 📝 BLOG PAGE (blog.html)
+
+**IMPORTANT:** Blog must be a standalone page driven by a separate `blogs.json` file.
+
+### Page structure
+
+**Hero:**
+- Label: "BLOG & RESOURCES"
+- Heading: "Insights for" (white) + "Operational Excellence" (gradient)
+- Subheadline: "Practical strategies, industry analysis, and expert perspectives to help you optimize smarter."
+
+**Filter tabs:**
+- All Posts (active by default)
+- Optimization
+- Automation
+- Implementation
+- Leadership
+- Case Studies
+
+**Blog grid:**
+- 3-column responsive grid
+- Each card shows: featured image, category tag, date, title, excerpt, read time, "Read More" button
+
+---
+
+### blogs.json structure
+
+```json
+[
+  {
+    "id": 1,
+    "title": "The 5 Processes Every Business Should Automate in 2025",
+    "slug": "5-processes-automate-2025",
+    "category": "Automation",
+    "date": "December 15, 2024",
+    "readTime": "5 min read",
+    "excerpt": "Automation isn't about replacing people — it's about freeing them to do higher-value work. Here are the five processes where automation delivers the highest ROI, based on our work with 50+ organizations.",
+    "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Process Mapping 101: How to See What's Really Happening",
+    "slug": "process-mapping-101",
+    "category": "Optimization",
+    "date": "Dec 6, 2024",
+    "readTime": "5 min read",
+    "excerpt": "Before you can fix a process, you need to see it clearly. Here's our proven approach to process mapping that reveals hidden inefficiencies.",
+    "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "title": "Calculating ROI on Automation: A Practical Framework",
+    "slug": "roi-automation-framework",
+    "category": "Automation",
+    "date": "Nov 28, 2024",
+    "readTime": "7 min read",
+    "excerpt": "Don't invest in automation based on gut feeling. Use this structured framework to project real returns before you spend a dollar.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "How We Cut a Warehouse's Processing Time by 73%",
+    "slug": "warehouse-processing-case-study",
+    "category": "Case Study",
+    "date": "Nov 15, 2024",
+    "readTime": "6 min read",
+    "excerpt": "A deep-dive into our engagement with a mid-size logistics company — from diagnosis to a dramatic 73% reduction in processing time.",
+    "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800",
+    "featured": false
+  }
+]
+```
+
+**JavaScript to render blog cards:**
+```javascript
+// blog.js
+async function loadBlogs() {
+  const response = await fetch('./data/blogs.json');
+  const blogs = await response.json();
+  
+  const container = document.getElementById('blog-grid');
+  
+  blogs.forEach(blog => {
+    const card = `
+      <article class="blog-card float-element">
+        ${blog.featured ? '<span class="featured-badge">Featured</span>' : ''}
+        <div class="blog-image">
+          <img src="${blog.image}" alt="${blog.title}" loading="lazy" />
+        </div>
+        <div class="blog-content">
+          <div class="blog-meta">
+            <span class="blog-category">${blog.category}</span>
+            <span class="blog-date">${blog.date}</span>
+          </div>
+          <h3 class="blog-title">${blog.title}</h3>
+          <p class="blog-excerpt">${blog.excerpt}</p>
+          <div class="blog-footer">
+            <span class="read-time">${blog.readTime}</span>
+            <a href="blog-post.html?slug=${blog.slug}" class="btn-read-more">
+              Read More
+            </a>
+          </div>
+        </div>
+      </article>
+    `;
+    container.innerHTML += card;
+  });
+}
+
+loadBlogs();
+```
+
+---
+
+## 🛠️ SERVICES PAGE (services.html)
+
+Use the same 6 services from the "What We Do" section on the homepage.
+
+### Page structure
+
+**Hero:**
+- Label: "OUR SERVICES"
+- Heading: "Comprehensive Solutions for" (white) + "Operational Excellence" (gradient)
+- Subheadline: "From audit to automation, we provide end-to-end consulting that transforms how your business operates."
+
+**Services grid:** Same 6 cards as homepage "What We Do"
+
+**Process section:** Same as homepage process
+
+**FAQ accordion:**
+
+Q: How long does a typical engagement last?
+A: Most projects range from 8-16 weeks depending on scope. We start with a 2-week discovery phase before proposing a detailed timeline.
+
+Q: Do you work with small businesses or only enterprises?
+A: We work with organizations of all sizes. Our smallest clients have 10-person teams; our largest have 500+. What matters is the commitment to operational improvement.
+
+Q: What industries do you specialize in?
+A: Manufacturing, logistics, e-commerce, healthcare, legal, and construction. That said, process optimization principles apply universally — we've successfully worked outside these sectors too.
+
+Q: How do you measure success?
+A: We define KPIs upfront during discovery (time saved, cost reduced, error rate, throughput, etc.) and track them throughout the engagement. Every project includes a post-implementation report.
+
+Q: Do you offer ongoing support after implementation?
+A: Yes. We offer retainer-based support packages for continuous optimization, troubleshooting, and scaling as your business evolves.
+
+**Final CTA:** Same as homepage
+
+---
+
+## ✅ FINAL CHECKLIST FOR AI
+
+Before delivering the updated website, confirm:
+
+- [ ] All text sizes reduced (h1 max 4.8rem, p max 1.05rem)
+- [ ] ALL buttons converted to pill shape (border-radius: 50px)
+- [ ] Navigation spacing fixed (20px padding per link)
+- [ ] Statistics counter animations synchronized (2-second duration for all)
+- [ ] Dotted square graphics added to hero, about, services, process, CTA sections
+- [ ] Parallax effects added to images and floating elements via GSAP
+- [ ] Service cards have ONLY ONE button (either "Quick Consultation" OR "Need Help?" — not both)
+- [ ] "FEATURED" tag removed from service cards
+- [ ] Blog page created as standalone with blogs.json data file
+- [ ] All content matches reference screenshots exactly
+- [ ] WhatsApp integration working with pre-filled messages per service
+
+---
+
+## 🎨 VISUAL REFERENCE SUMMARY
+
+**From Image 1 (Homepage):**
+- Hero: 3-line headline with gradient middle line + inline metrics
+- What We Do: 6 service cards with tags
+- Process: 4 steps with large faded numbers
+- Testimonials: Cards + metrics grid
+- Industries: Icon row in footer area
+- Final CTA: Centered with two buttons
+
+**From Image 2 (Blog):**
+- Filter tabs for categories
+- Featured badge on main post
+- 3-column card grid
+- Category tags + read time on each card
+
+**From Image 3 (About):**
+- Two-column story section with trophy image
+- 6 value cards
+- 3 team member cards with images
+- "Why Choose Us" section with cheetah image
+
+---
+
+## 🚀 DELIVERY INSTRUCTION
+
+Rewrite the website content following this exact structure. Maintain the current UI layout but apply all typography, button, spacing, animation, and decorative graphic fixes. The result should feel polished, engaging, and visually aligned with premium Awwwards-level consulting websites.
+
+DO NOT rebuild from scratch — refine what exists.
