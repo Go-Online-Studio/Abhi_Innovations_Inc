@@ -30,7 +30,7 @@ const navbarHTML=`
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
-        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
           <li class="nav-item"><a class="nav-link ${navActive("index.html")}" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link ${navActive("about.html")}" href="about.html">About</a></li>
           <li class="nav-item"><a class="nav-link ${navActive("services.html")}" href="services.html">Services</a></li>

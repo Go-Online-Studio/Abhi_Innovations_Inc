@@ -271,7 +271,7 @@ p {
   border-left: 1px solid var(--border-gold) !important;
 }
 .offcanvas .nav-link {
-  font-size: 1.1rem;
+  font-size: 16px;
   padding: 12px 0 !important;
   border-bottom: 1px solid rgba(201, 168, 76, 0.08);
 }
@@ -1209,6 +1209,75 @@ p {
   font-size: 0.8rem;
   color: var(--gold);
 }
+
+/* ===== Vertical Testimonial Carousel (Anti-Gravity) ===== */
+.testimonial-carousel-wrap {
+  position: relative;
+  /* Increased height to comfortably show 2 tall cards */
+  height: 600px;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+/* Fade-out masks at top and bottom for the anti-gravity floating illusion */
+.tcarousel-mask {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 50px;
+  z-index: 10;
+  pointer-events: none;
+}
+.tcarousel-mask--top {
+  top: 0;
+  background: linear-gradient(
+    to bottom,
+    var(--primary-color) 0%,
+    transparent 100%
+  );
+}
+.tcarousel-mask--bottom {
+  bottom: 0;
+  background: linear-gradient(
+    to top,
+    var(--primary-color) 0%,
+    transparent 100%
+  );
+}
+
+/* Swiper vertical container must be full height of the wrapper */
+.testimonial-swiper-v {
+  width: 100%;
+  height: 100%;
+}
+
+/* Each slide: add spacing between cards */
+.testimonial-swiper-v .swiper-slide {
+  height: auto;
+  padding: 8px 4px;
+  box-sizing: border-box;
+}
+
+/* Anti-gravity card: soft float shadow + smooth hover-lift */
+.tcard-float {
+  transition:
+    box-shadow 0.4s ease,
+    transform 0.4s ease;
+  box-shadow:
+    0 8px 8px rgba(201, 168, 76, 0.06),
+    0 2px 2px rgba(0, 0, 0, 0.3);
+  will-change: transform;
+}
+
+/* Pause visual emphasis on hover — makes card feel "grabbed" */
+.tcard-float:hover {
+  box-shadow:
+    0 10px 10px rgba(201, 168, 76, 0.03),
+    0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px) scale(1.01);
+  border-color: rgba(201, 168, 76, 0.4);
+}
+
 /* CTA Banner */
 .cta-section {
   position: relative;

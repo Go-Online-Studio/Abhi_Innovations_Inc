@@ -23,21 +23,32 @@
     });
   }
 
-  /* Testimonial Swiper */
+  /* Vertical Anti-Gravity Testimonial Swiper */
   function initTestimonialSwiper() {
-    const el = document.querySelector(".testimonial-swiper");
+    const el = document.querySelector(".testimonial-swiper-v");
     if (!el) return;
+
     new Swiper(el, {
-      slidesPerView: 1,
-      spaceBetween: 24,
+      direction: "vertical",
       loop: true,
-      autoplay: { delay: 5000, disableOnInteraction: false },
-      speed: 800,
-      pagination: {
-        el: ".testimonial-swiper .swiper-pagination",
-        clickable: true,
+      slidesPerView: 2,
+      spaceBetween: 20,
+      grabCursor: true,           // enables drag-to-slide on mobile/desktop
+
+      /* Free-mode + no momentum = perfectly linear, constant drift */
+      freeMode: {
+        enabled: true,
+        momentum: false,
       },
-      breakpoints: { 768: { slidesPerView: 2 }, 1200: { slidesPerView: 3 } },
+
+      /* Slow, continuous autoplay — the "anti-gravity" float */
+      autoplay: {
+        delay: 0,                  // no pause between slides
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,   // pause when user hovers
+      },
+
+      speed: 3000,                 // ms per slide-height — slow & weightless
     });
   }
 

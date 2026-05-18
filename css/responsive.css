@@ -1,5 +1,6 @@
 /* ===== RESPONSIVE STYLES ===== */
 @media(max-width:991px){
+  .testimonial-carousel-wrap{height:550px}
   .hero-metrics{gap:16px}
   .hero-metric .metric-value{font-size:1.3rem}
   .metric-grid{grid-template-columns:1fr 1fr}
@@ -19,6 +20,7 @@
 }
 @media(max-width:767px){
   :root{--section-py:clamp(40px,6vw,80px)}
+  .testimonial-carousel-wrap{height:500px}
   .hero-buttons{flex-direction:column;gap:12px}
   .hero-buttons .btn-primary-glow,.hero-buttons .btn-outline-gold{width:100%;justify-content:center}
   .hero-metrics{gap:12px}
