@@ -33,7 +33,7 @@
       loop: true,
       slidesPerView: 2,
       spaceBetween: 20,
-      grabCursor: true,           // enables drag-to-slide on mobile/desktop
+      grabCursor: true, // enables drag-to-slide on mobile/desktop
 
       /* Free-mode + no momentum = perfectly linear, constant drift */
       freeMode: {
@@ -43,12 +43,12 @@
 
       /* Slow, continuous autoplay — the "anti-gravity" float */
       autoplay: {
-        delay: 0,                  // no pause between slides
+        delay: 0, // no pause between slides
         disableOnInteraction: false,
-        pauseOnMouseEnter: true,   // pause when user hovers
+        pauseOnMouseEnter: true, // pause when user hovers
       },
 
-      speed: 3000,                 // ms per slide-height — slow & weightless
+      speed: 3000, // ms per slide-height — slow & weightless
     });
   }
 
@@ -66,14 +66,14 @@
         576: { slidesPerView: 3 },
         768: { slidesPerView: 4 },
         992: { slidesPerView: 5 },
-        1200: { slidesPerView: 6 }
+        1200: { slidesPerView: 6 },
       },
     });
   }
 
   /* Synchronized Counters — all finish in exactly 2s */
-  function animateCounters() {
-    const counters = document.querySelectorAll("[data-count]");
+  function animateCounters(selector = "[data-count]") {
+    const counters = document.querySelectorAll(selector);
     const DURATION = 2000;
     counters.forEach((counter) => {
       const target = parseInt(counter.getAttribute("data-count"));
@@ -214,16 +214,21 @@
       });
     });
 
-    /* Counter trigger via ScrollTrigger */
-    const statsSec = document.querySelector(".stats-section,.hero-metrics");
+    /* Counter triggers — animate banner counters immediately, others when scrolled into view */
+    const heroMetrics = document.querySelector(".hero-metrics");
+    if (heroMetrics) {
+      animateCounters(".hero-metrics [data-count]");
+    }
+
+    const statsSec = document.querySelector(".stats-section,.metric-grid");
     if (statsSec) {
       ScrollTrigger.create({
         trigger: statsSec,
-        start: "top 70%",
+        start: "top 80%",
         once: true,
-        onEnter: () => animateCounters(),
+        onEnter: () => animateCounters(".stats-section [data-count],.metric-grid [data-count]"),
       });
-    } else {
+    } else if (!heroMetrics) {
       animateCounters();
     }
   }
