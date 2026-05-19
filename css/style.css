@@ -97,6 +97,9 @@ p {
 .section-padding {
   padding: var(--section-py) 0;
 }
+section{
+  overflow: hidden;
+}
 .section-label {
   display: inline-flex;
   align-items: center;
