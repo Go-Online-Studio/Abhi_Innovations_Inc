@@ -48,6 +48,7 @@
 @media (max-width: 767px) {
   :root {
     --section-py: clamp(40px, 6vw, 80px);
+    --brand-height: 64px;
   }
   .testimonial-carousel-wrap {
     height: 500px;

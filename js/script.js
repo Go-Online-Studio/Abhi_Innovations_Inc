@@ -340,7 +340,7 @@
     <div class="row gy-4">
       <div class="col-lg-4 footer-col">
         <div class="footer-brand">
-          <img src="https://placehold.co/200x80/0a1128/C9A84C?text=ABHI+INC" alt="Abhi Innovations Inc." width="200" height="80">
+          <img src="images/AbhiInnovationIncLogo.webp" alt="Abhi Innovations Inc." width="200" height="80">
         </div>
         <p class="footer-desc">Empowering businesses with strategic operations consulting, workflow automation, and digital transformation solutions.</p>
         <div class="footer-social">

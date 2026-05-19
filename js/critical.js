@@ -29,7 +29,7 @@ const navbarHTML = `
 <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
   <div class="container">
     <a class="navbar-brand" href="index.html" aria-label="Abhi Innovations Home">
-      <img src="https://placehold.co/200x80/0a1128/C9A84C?text=ABHI+INC" alt="Abhi Innovations Inc. Logo" width="200" height="80">
+      <img src="images/AbhiInnovationIncLogo.webp" alt="Abhi Innovations Inc. Logo" width="200" height="80">
     </a>
     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-label="Toggle navigation">
       <span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span>
