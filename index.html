@@ -26,14 +26,14 @@
 <!-- ===== HERO ===== -->
 <section class="hero-section" aria-label="Hero" style="position:relative">
   <div class="dotted-square top-right large" style="top:80px;right:60px;position:absolute;z-index:0"></div>
-  <div class="swiper hero-swiper" style="width:100%;height:100%;position:absolute;inset:0">
+  <div class="swiper hero-swiper" style="width:100%;height:100%;position:fixed;inset:0;z-index:-1;pointer-events:none">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <div class="hero-bg"><img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&h=1080&fit=crop&q=80" alt="Modern corporate office" width="1920" height="1080" class="parallax-image"></div>
+        <div class="hero-bg bg-hero-1"><img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&h=1080&fit=crop&q=80" alt="Modern corporate office" width="1920" height="1080" class="parallax-image"></div>
         <div class="hero-overlay"></div>
       </div>
       <div class="swiper-slide">
-        <div class="hero-bg"><img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1920&h=1080&fit=crop&q=80" alt="Strategy session" width="1920" height="1080" class="parallax-image"></div>
+        <div class="hero-bg bg-hero-2"><img src="https://img.magnific.com/free-photo/people-taking-part-business-event_23-2149346626.jpg?t=st=1779257625~exp=1779261225~hmac=4613b79aa89bb0e4e9108ff2a9900355f1084ef03aad91df8241ffdd22c26d5c&w=1200" alt="Strategy session" width="1920" height="1080" class="parallax-image"></div> 
         <div class="hero-overlay"></div>
       </div>
     </div>
@@ -236,12 +236,26 @@
     </div>
     <div class="swiper industry-swiper" data-animate="fade-up">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><div class="industry-card"><img src="https://placehold.co/180x100/0a1128/C9A84C?text=Manufacturing" alt="Manufacturing"></div></div>
-        <div class="swiper-slide"><div class="industry-card"><img src="https://placehold.co/180x100/0a1128/C9A84C?text=Logistics" alt="Logistics"></div></div>
-        <div class="swiper-slide"><div class="industry-card"><img src="https://placehold.co/180x100/0a1128/C9A84C?text=E-commerce" alt="E-commerce"></div></div>
-        <div class="swiper-slide"><div class="industry-card"><img src="https://placehold.co/180x100/0a1128/C9A84C?text=Healthcare" alt="Healthcare"></div></div>
-        <div class="swiper-slide"><div class="industry-card"><img src="https://placehold.co/180x100/0a1128/C9A84C?text=Legal" alt="Legal"></div></div>
-        <div class="swiper-slide"><div class="industry-card"><img src="https://placehold.co/180x100/0a1128/C9A84C?text=Construction" alt="Construction"></div></div>
+        <div class="swiper-slide"><div class="industry-card">
+          <div class="d-flex align-items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-factory w-5 h-5">
+              <path d="M12 16h.01"></path>
+              <path d="M16 16h.01"></path>
+              <path d="M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z"></path>
+              <path d="M8 16h.01"></path>
+            </svg>
+
+            <span class="text-sm font-medium">Manufacturing</span>
+          </div>
+        </div></div>
+        <div class="swiper-slide"><div class="industry-card"> 
+          <div class="d-flex align-items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="warehouse" aria-hidden="true" class="lucide lucide-warehouse w-5 h-5"><path d="M18 21V10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v11"></path><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 1.132-1.803l7.95-3.974a2 2 0 0 1 1.837 0l7.948 3.974A2 2 0 0 1 22 8z"></path><path d="M6 13h12"></path><path d="M6 17h12"></path></svg><span class="text-sm font-medium">Logistics</span></div>
+        </div></div>
+        <div class="swiper-slide"><div class="industry-card"><div class="d-flex align-items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="building-2" aria-hidden="true" class="lucide lucide-building-2 w-5 h-5"><path d="M10 12h4"></path><path d="M10 8h4"></path><path d="M14 21v-3a2 2 0 0 0-4 0v3"></path><path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2"></path><path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16"></path></svg><span class="text-sm font-medium">Enterprise</span></div></div></div>
+        <div class="swiper-slide"><div class="industry-card"><div class="d-flex align-items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="heart-pulse" aria-hidden="true" class="lucide lucide-heart-pulse w-5 h-5"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path><path d="M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"></path></svg><span class="text-sm font-medium">Healthcare</span></div>
+        </div></div>
+        <div class="swiper-slide"><div class="industry-card"><div class="d-flex align-items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="store" aria-hidden="true" class="lucide lucide-store w-5 h-5"><path d="M15 21v-5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v5"></path><path d="M17.774 10.31a1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.451 0 1.12 1.12 0 0 0-1.548 0 2.5 2.5 0 0 1-3.452 0 1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.77-3.248l2.889-4.184A2 2 0 0 1 7 2h10a2 2 0 0 1 1.653.873l2.895 4.192a2.5 2.5 0 0 1-3.774 3.244"></path><path d="M4 10.95V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8.05"></path></svg><span class="text-sm font-medium">Retail</span></div></div></div>
+        <div class="swiper-slide"><div class="industry-card"><div class="d-flex align-items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="hard-hat" aria-hidden="true" class="lucide lucide-hard-hat w-5 h-5"><path d="M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5"></path><path d="M14 6a6 6 0 0 1 6 6v3"></path><path d="M4 15v-3a6 6 0 0 1 6-6"></path><rect x="2" y="15" width="20" height="4" rx="1"></rect></svg><span class="text-sm font-medium">Construction</span></div></div></div>
       </div>
     </div>
   </div>

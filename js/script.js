@@ -175,13 +175,14 @@
 
     /* Parallax images (Banners & CTA) */
     gsap.utils.toArray(".parallax-image").forEach((img) => {
+      const isHero = img.closest(".hero-swiper");
       gsap.to(img, {
         y: -80,
         ease: "none",
         scrollTrigger: {
-          trigger: img,
-          start: "top bottom",
-          end: "bottom top",
+          trigger: isHero ? ".hero-section" : img,
+          start: isHero ? "top top" : "top bottom",
+          end: isHero ? "bottom top" : "bottom top",
           scrub: 1,
         },
       });
